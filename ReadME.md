@@ -37,3 +37,7 @@
 
   <h4>NATS</h4>
   <p>NATS (NATS Streaming or NATS.io) is utilized for inter-service communication within the microservices architecture. It provides a lightweight and scalable messaging system that enables services to communicate asynchronously. NATS ensures reliable
+
+    
+  <h4>NGINX</h4>
+  <p>Nginx acts as a load balancer in this application. It distributes incoming requests across multiple instances of the Client service, ensuring optimal resource utilization and improved performance. Nginx plays a crucial role in managing the high volume of user traffic and helps maintain the responsiveness and availability of the ticket marketplace.</p>
