@@ -3,6 +3,9 @@
   <header>
     <h1>This application demonstrates the use of microservices</h1>
   </header>
+  
+  
+  <p>I had a lot of fun working on this application! :)</p>
 
   <h2>Microservices Ticket Marketplace</h2>
 
