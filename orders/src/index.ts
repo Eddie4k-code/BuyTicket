@@ -13,6 +13,7 @@ import { natsWrapper } from "./nats-wrapper";
 //Create Express App
 app.listen(3000, () => {
     console.log('Running on port 3000!');
+    console.log('Connected to Server');
 });
 
 //Start DB and connect to our nats client
