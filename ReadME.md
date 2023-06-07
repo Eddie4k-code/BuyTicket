@@ -1,14 +1,10 @@
 
-<head>
-  <title>Microservices Ticket Marketplace</title>
-</head>
 <body>
   <header>
     <h1>This application demonstrates the use of microservices</h1>
   </header>
 
   <h2>Microservices Ticket Marketplace</h2>
-  <img src="image-url" alt="Microservices Ticket Marketplace">
 
   <h3>Services</h3>
   <h4>Auth Service</h4>
