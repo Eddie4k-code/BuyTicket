@@ -39,7 +39,7 @@
   <p>Docker is used for containerization in this application. Each service is packaged into a Docker container, which encapsulates its dependencies and provides consistency across different environments. Docker containers are lightweight, portable, and enable efficient deployment and scaling of microservices.</p>
 
   <h4>NATS</h4>
-  <p>NATS (NATS Streaming or NATS.io) is utilized for inter-service communication within the microservices architecture. It provides a lightweight and scalable messaging system that enables services to communicate asynchronously. NATS ensures reliable
+  <p>NATS (NATS Streaming or NATS.io) is utilized for inter-service communication within the microservices architecture. It provides a lightweight and scalable messaging system that enables services to communicate asynchronously.</p>
 
     
   <h4>NGINX</h4>
