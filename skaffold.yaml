@@ -1,0 +1,58 @@
+apiVersion: skaffold/v4beta1
+kind: Config
+build:
+  googleCloudBuild:
+    projectId: ticketing-dev-385519
+  artifacts:
+    - image: us.gcr.io/ticketing-dev-385519/auth
+      context: auth
+      sync:
+        manual:
+          - src: src/**/*.ts
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+    - image: us.gcr.io/ticketing-dev-385519/client
+      context: client
+      sync:
+        manual:
+          - src: '**/*.{ts, tsx, js}'
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+    - image: us.gcr.io/ticketing-dev-385519/tickets
+      context: tickets
+      sync:
+        manual:
+          - src: src/**/*.ts
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+    - image: us.gcr.io/ticketing-dev-385519/orders
+      context: orders
+      sync:
+        manual:
+          - src: src/**/*.ts
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+    - image: us.gcr.io/ticketing-dev-385519/expiration
+      context: expiration
+      sync:
+        manual:
+          - src: src/**/*.ts
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+    - image: us.gcr.io/ticketing-dev-385519/payments
+      context: payments
+      sync:
+        manual:
+          - src: src/**/*.ts
+            dest: .
+      docker:
+        dockerfile: Dockerfile
+
+manifests:
+  rawYaml:
+    - ./infra/k8s/*

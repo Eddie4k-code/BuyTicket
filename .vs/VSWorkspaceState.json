@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\auth\\src\\models",
+    "\\client",
+    "\\client\\pages\\orders",
+    "\\client\\pages\\tickets",
+    "\\orders\\src"
+  ],
+  "SelectedNode": "\\client\\pages",
+  "PreviewInSolutionExplorer": false
+}
